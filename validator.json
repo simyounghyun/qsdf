@@ -1,0 +1,11 @@
+{
+  "pubkey": {"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AjBl3RQz58sTDVfcZBCDzJJlzg+TNMhYIrA7RET8/gmM"},
+  "amount": "1000000ustake",
+  "moniker": "Shinlabs",
+  "website": "http://shinlabs.xyz",
+  "details": "Thesis-driven, crypto-native venture studio",
+  "commission-rate": "0.1",
+  "commission-max-rate": "0.2",
+  "commission-max-change-rate": "0.1",
+  "min-self-delegation": "1"
+}
