@@ -1,0 +1,109 @@
+{
+  "app_name": "mitosisd",
+  "app_version": "1.0.0-beta",
+  "genesis_time": "2025-05-09T07:30:04.19642Z",
+  "chain_id": "mitosis-dognet-1",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [],
+      "supply": [],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "consensus": null,
+    "evidence": {
+      "evidence": []
+    },
+    "evmengine": {
+      "execution_block_hash": "9r5bYFm4nu9ecRInQEX+XfslNaM6CcLNnfW+WT8t6/8="
+    },
+    "evmgov": null,
+    "evmvalidator": {
+      "params": {
+        "max_validators": 3,
+        "max_leverage_ratio": "100.000000000000000000",
+        "min_voting_power": "1",
+        "withdrawal_limit": 10
+      },
+      "validator_entrypoint_contract_addr": "0x0000000000000000000000000000000000000000",
+      "validators": [
+        {
+          "addr": "0xe5dC873249747226b717D6ab38DD734c81bAEe66",
+          "pubkey": "AvQcYDp0iA9nhiNKEYCSUJoQ0sFDWcE5CsAFZA0h4lle",
+          "collateral": "1000000000000000",
+          "collateral_shares": "0",
+          "extra_voting_power": "0",
+          "voting_power": "0",
+          "jailed": false,
+          "bonded": false
+        }
+      ],
+      "withdrawals": [],
+      "last_validator_powers": [],
+      "collateral_ownerships": [
+        {
+          "val_addr": "0xe5dC873249747226b717D6ab38DD734c81bAEe66",
+          "owner": "0x112460d232578108C19545a1f0CD11481ffA2413",
+          "shares": "0",
+          "creation_height": "0"
+        }
+      ]
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "runtime": null,
+    "slashing": {
+      "params": {
+				"signed_blocks_window": "800",
+				"min_signed_per_window": "0.800000000000000000",
+				"downtime_jail_duration": "60s",
+				"slash_fraction_double_sign": "0.010000000000000000",
+				"slash_fraction_downtime": "0.001000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "upgrade": {}
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "-1",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "secp256k1"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}
